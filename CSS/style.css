@@ -6,13 +6,11 @@ body{
     line-height: 1.6em;
     margin: 0px;
 }
-
 .container{
     width: 80%;
     margin: auto;
     overflow: hidden;
 }
-
 #main-header{
     background-image: url('../images/showcase.webp');
     background-position: center;
@@ -25,16 +23,13 @@ body{
     background-color: black;
     color: wheat;
 }
-
 #navbar ul{
     padding-top: 0px;
     list-style: none;
 }
-
 #navbar li{
     display: inline;
 }
-
 #navbar a{
     color: wheat;
     text-decoration: none;
@@ -50,7 +45,6 @@ body{
     padding: 15px;
     box-sizing: border-box;
 }
-
 #showcase{
     background-image: url('../images/showcase.webp');
     background-position: center right;
@@ -60,21 +54,21 @@ body{
     margin-bottom: 30px;
     text-align: center;
 }
-
 #showcase h1{
     color: wheat;
     font-size: 50px;
     line-height: 1.6em;
     padding-top: 30px;
 }
-
 #main{
     float: left;
     width: 70%;
     padding: 0px 30px;
     box-sizing: border-box;
 }
-
+#main h1{
+    text-align: center;
+}
 #sidebar{
     float: right;
     width: 30%;
@@ -87,7 +81,6 @@ body{
     box-sizing: border-box;
     text-align: center;
 }
-
 #main-footer{
     background: black;
     color: wheat;
@@ -95,17 +88,23 @@ body{
     padding: 10px;
     margin: 10px;
 }
-
 @media(max-width:600px){
+    #main-header h1{
+        width: 100%;
+        float: none;
+        text-align: center;
+    }
     #navbar{
         width: 100%;
         float: none;
+        text-align: center;
     }
     #icons{
         width: 100%;
         float: none;
         display: block;
         position: relative;
+        text-align: center;
     }
     #main{
         width: 100%;
