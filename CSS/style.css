@@ -22,7 +22,7 @@ body{
     color: wheat;
 }
 
-.icons{
+#icons{
     text-align: center;
     list-style: none;
     border: 3px black solid;
