@@ -22,13 +22,22 @@ body{
     color: wheat;
 }
 
+.icons{
+    text-align: center;
+    list-style: none;
+    border: 3px black solid;
+    position: absolute;
+    margin-top: 15px;
+    
+}
+
 #navbar{
     background-color: black;
     color: wheat;
 }
 
 #navbar ul{
-    padding: 0px;
+    padding-top: 0px;
     list-style: none;
 }
 
