@@ -22,6 +22,8 @@ body{
 #navbar{
     background-color: black;
     color: wheat;
+    position: sticky;
+    top: 0;
 }
 #navbar ul{
     padding-top: 0px;
