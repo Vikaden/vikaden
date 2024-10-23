@@ -39,6 +39,7 @@ body{
     text-align: center;
     font-size: 18px;
     padding-right: 15px;
+  
 }
 #icons{
     text-align: center;
@@ -102,10 +103,7 @@ body{
     #navbar{
         width: 100%;
         float: none;
-        display: inline;
         text-align: center;
-        position: sticky;
-        top: 0;
     }   
     #icons{
         width: 100%;
