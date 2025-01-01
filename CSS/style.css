@@ -101,17 +101,12 @@ body{
         float: none;
         text-align: center;
     }
-    #navbar {
+    #navbar{
         width: 100%;
         float: none;
         text-align: center;
-<<<<<<< HEAD
     }
-    #icons {
-=======
-    }   
     #icons{
->>>>>>> 23d15b9 (edit)
         width: 100%;
         float: none;
         display: block;
