@@ -1,4 +1,4 @@
-body {
+body{
     background-color: black;
     color: wheat;
     font-family: Arial, Helvetica, sans-serif;
@@ -6,12 +6,12 @@ body {
     line-height: 1.6em;
     margin: 0;
 }
-.container {
+.container{
     width: 80%;
     margin: auto;
     overflow: hidden;
 }
-#main-header {
+#main-header{
     background-image: url('../images/showcase.webp');
     background-position: left;
     background-repeat: no-repeat;
@@ -19,30 +19,31 @@ body {
     background-color: black;
     color: wheat;
 }
-#navbar {
+#navbar{
     background-color: black;
     color: wheat;
     position: sticky;
     top: 0;
 }
-#navbar ul {
+#navbar ul{
     padding-top: 0;
     list-style: none;
 }
-#navbar li {
+#navbar li{
     display: inline;
     padding-right: 10px;
 }
-#navbar a {
+#navbar a{
     color: wheat;
     text-decoration: none;
     text-align: center;
     font-size: 18px;
     padding-right: 15px;
 }
-#icons {
+#icons{
     text-align: center;
     position: absolute;
+    color:wheat;
     right: 10px;
     width: 30%;
     min-height: 30px;
@@ -50,7 +51,7 @@ body {
     padding-left: 15px;
     box-sizing: border-box;
 }
-#showcase {
+#showcase{
     background-image: url('../images/showcase.webp');
     background-position: center right;
     background-repeat: no-repeat;
@@ -59,22 +60,22 @@ body {
     margin-bottom: 30px;
     text-align: center;
 }
-#showcase h1 {
+#showcase h1{
     color: wheat;
     font-size: 50px;
     line-height: 1.6em;
     padding-top: 30px;
 }
-#main {
+#main{
     float: left;
     width: 70%;
     padding: 0 30px;
     box-sizing: border-box;
 }
-#main h1 {
+#main h1{
     text-align: center;
 }
-#sidebar {
+#sidebar{
     float: right;
     width: 30%;
     background: burlywood;
@@ -86,7 +87,7 @@ body {
     box-sizing: border-box;
     text-align: center;
 }
-#main-footer {
+#main-footer{
     background: black;
     color: wheat;
     text-align: center;
