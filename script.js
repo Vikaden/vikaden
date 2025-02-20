@@ -1,7 +1,7 @@
 document.getElementById('loginForm').addEventListener('submit', function(event) {
     event.preventDefault();  // Prevent form submission
     
-    const correctPassword = "mySecretPassword";  // Replace with your own password
+    const correctPassword = "youtubebad";  // Replace with your own password
     const enteredPassword = document.getElementById('password').value;
     
     if (enteredPassword === correctPassword) {
