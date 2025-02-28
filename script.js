@@ -1,17 +1,1 @@
-document.getElementById('loginForm').addEventListener('submit', function(event) {
-    event.preventDefault();  // Prevent form submission
-    
-    const correctPassword = "youtubebad";  // Replace with your own password
-    const enteredPassword = document.getElementById('password').value;
-    
-    if (enteredPassword === correctPassword) {
-      // Hide the login form and display the content
-      document.getElementById('loginForm').style.display = 'none';
-      document.getElementById('errorMessage').style.display = 'none';
-      document.getElementById('content').style.display = 'block';
-    } else {
-      // Show error message if password is incorrect
-      document.getElementById('errorMessage').style.display = 'block';
-    }
-  });
-  
+function _0x447a(_0x4e7eb7,_0xcd995f){const _0x21a7ba=_0x21a7();return _0x447a=function(_0x447add,_0x28af42){_0x447add=_0x447add-0x137;let _0x3e273b=_0x21a7ba[_0x447add];return _0x3e273b;},_0x447a(_0x4e7eb7,_0xcd995f);}const _0x56e1dd=_0x447a;function _0x21a7(){const _0x25ced0=['submit','display','block','4bfDbMp','53458ZkQGbA','34069871ifJXwv','errorMessage','getElementById','style','preventDefault','8IaJKin','none','loginForm','973515maEoLe','665609nnBtPy','30qFQmKJ','389070GuYeiq','content','54Jllccx','value','9596050nlUJFP','9274464pVlfPT'];_0x21a7=function(){return _0x25ced0;};return _0x21a7();}(function(_0x25ae86,_0x9cd041){const _0x9688d7=_0x447a,_0x5c6995=_0x25ae86();while(!![]){try{const _0x525e8d=-parseInt(_0x9688d7(0x142))/0x1*(parseInt(_0x9688d7(0x137))/0x2)+parseInt(_0x9688d7(0x140))/0x3*(-parseInt(_0x9688d7(0x14c))/0x4)+-parseInt(_0x9688d7(0x143))/0x5*(-parseInt(_0x9688d7(0x145))/0x6)+-parseInt(_0x9688d7(0x141))/0x7*(parseInt(_0x9688d7(0x13d))/0x8)+-parseInt(_0x9688d7(0x148))/0x9+-parseInt(_0x9688d7(0x147))/0xa+parseInt(_0x9688d7(0x138))/0xb;if(_0x525e8d===_0x9cd041)break;else _0x5c6995['push'](_0x5c6995['shift']());}catch(_0x2e3407){_0x5c6995['push'](_0x5c6995['shift']());}}}(_0x21a7,0x8f128),document['getElementById'](_0x56e1dd(0x13f))['addEventListener'](_0x56e1dd(0x149),function(_0x499380){const _0x291dbc=_0x56e1dd;_0x499380[_0x291dbc(0x13c)]();const _0x290e43='youtubebad',_0x286c83=document['getElementById']('password')[_0x291dbc(0x146)];_0x286c83===_0x290e43?(document['getElementById'](_0x291dbc(0x13f))['style'][_0x291dbc(0x14a)]=_0x291dbc(0x13e),document[_0x291dbc(0x13a)](_0x291dbc(0x139))[_0x291dbc(0x13b)][_0x291dbc(0x14a)]=_0x291dbc(0x13e),document[_0x291dbc(0x13a)](_0x291dbc(0x144))[_0x291dbc(0x13b)][_0x291dbc(0x14a)]=_0x291dbc(0x14b)):document[_0x291dbc(0x13a)]('errorMessage')[_0x291dbc(0x13b)][_0x291dbc(0x14a)]=_0x291dbc(0x14b);}));
