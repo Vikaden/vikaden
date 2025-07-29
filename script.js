@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 document.getElementById('loginForm').addEventListener('submit', function(event) {
     event.preventDefault();  // Prevent form submission
     
@@ -14,3 +15,6 @@ document.getElementById('loginForm').addEventListener('submit', function(event) 
       document.getElementById('errorMessage').style.display = 'block';
     }
   });
+=======
+const _
+>>>>>>> 1fd6dfb (edit)
