@@ -1,4 +1,5 @@
 <<<<<<< HEAD
+<<<<<<< HEAD
 document.getElementById('loginForm').addEventListener('submit', function(event) {
     event.preventDefault();  // Prevent form submission
     
@@ -18,3 +19,5 @@ document.getElementById('loginForm').addEventListener('submit', function(event) 
 =======
 const _
 >>>>>>> 1fd6dfb (edit)
+=======
+>>>>>>> c8635e5 (edit)
