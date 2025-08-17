@@ -1,5 +1,4 @@
-<<<<<<< HEAD
-<<<<<<< HEAD
+
 document.getElementById('loginForm').addEventListener('submit', function(event) {
     event.preventDefault();  // Prevent form submission
     
@@ -15,9 +14,3 @@ document.getElementById('loginForm').addEventListener('submit', function(event) 
       // Show error message if password is incorrect
       document.getElementById('errorMessage').style.display = 'block';
     }
-  });
-=======
-const _
->>>>>>> 1fd6dfb (edit)
-=======
->>>>>>> c8635e5 (edit)
