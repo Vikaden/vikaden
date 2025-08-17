@@ -14,3 +14,4 @@ document.getElementById('loginForm').addEventListener('submit', function(event) 
       // Show error message if password is incorrect
       document.getElementById('errorMessage').style.display = 'block';
     }
+});
